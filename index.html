@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Landing Page - Lingkungan</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Beranda</a></li>
+          <li><a href="#">Tentang</a></li>
+          <li><a id="link" href="https://skilvul.com">Skilvul</a></li>
+        </ul>
+      </nav>
+    </header>
+    <img src="https://picsum.photos/800/400" alt="Lingkungan" />
+    <p id="description">
+      Selamat datang di website kami yang berfokus pada masalah lingkungan.
+      Silakan isi formulir di bawah ini untuk bergabung dengan kami dan
+      mendapatkan informasi terbaru seputar lingkungan.
+    </p>
+    <form>
+      <input type="text" id="name" placeholder="Nama" required />
+      <input type="text" id="city" placeholder="Kota" required />
+      <input type="email" id="email" placeholder="Email" required />
+      <input type="number" id="zip-code" placeholder="Kode Pos" required />
+      <label for="status" id="check">
+        Dengan ini saya menyatakan data yang diisi pada form ini adalah benar
+        dan telah sesuai
+      </label>
+      <input type="checkbox" id="status" required />
+      <input type="submit" id="submit-form" value="Submit" />
+    </form>
+    <div id="warning"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
